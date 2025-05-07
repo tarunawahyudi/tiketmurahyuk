@@ -105,7 +105,7 @@ export function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Navigation Menu */}
+      {/**  Mobile Navigation Menu **/}
       {isOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="container mx-auto px-4 py-3">
