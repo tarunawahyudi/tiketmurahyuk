@@ -14,15 +14,10 @@ export function Footer() {
             <p className="text-gray-300 mb-4">
               Platform travel terpercaya untuk tiket pesawat, kereta api, dan paket perjalanan dengan harga terbaik.
             </p>
-            <div className="flex space-x-4">
-              <Link href="#" className="text-gray-300 hover:text-blue-400">
-                <Facebook className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="text-gray-300 hover:text-blue-400">
-                <Instagram className="h-5 w-5" />
-              </Link>
-              <Link href="#" className="text-gray-300 hover:text-blue-400">
-                <Twitter className="h-5 w-5" />
+            <div className="flex space-x-4 content-center">
+              <Link href="https://www.instagram.com/tiketmurahyuk" className="flex gap-3  text-gray-300 hover:text-blue-400">
+                <Instagram className="h-5 w-5" /> 
+                <span>tiketmurahyuk</span>
               </Link>
             </div>
           </div>
@@ -31,59 +26,28 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Produk</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/products?category=penerbangan" className="text-gray-300 hover:text-blue-400">
+                <Link href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." target='_blank' className="text-gray-300 hover:text-blue-400">
                   Tiket Pesawat
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=kereta-api" className="text-gray-300 hover:text-blue-400">
+                <Link href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." target='_blank' className="text-gray-300 hover:text-blue-400">
                   Tiket Kereta Api
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=paket-wisata" className="text-gray-300 hover:text-blue-400">
+                <Link href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." target='_blank' className="text-gray-300 hover:text-blue-400">
                   Paket Wisata
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=hotel" className="text-gray-300 hover:text-blue-400">
+                <Link href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." target='_blank' className="text-gray-300 hover:text-blue-400">
                   Hotel
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=rental-kendaraan" className="text-gray-300 hover:text-blue-400">
+                <Link href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." target='_blank' className="text-gray-300 hover:text-blue-400">
                   Rental Kendaraan
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Perusahaan</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#about" className="text-gray-300 hover:text-blue-400">
-                  Tentang Kami
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-300 hover:text-blue-400">
-                  Karir
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-300 hover:text-blue-400">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-300 hover:text-blue-400">
-                  Kebijakan Privasi
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-300 hover:text-blue-400">
-                  Syarat dan Ketentuan
                 </Link>
               </li>
             </ul>

@@ -48,60 +48,52 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Plane className="h-6 w-6 text-blue-600" />
-          <span className="text-xl font-bold text-blue-600">Tiket Murah Yuk</span>
+          <span className="text-xl font-bold text-blue-600">Tiket Murah Yuk <br/><span className='text-sm text-slate-600'>by Delika Travel</span> </span>
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <Link 
-            href="/products?category=penerbangan" 
+            href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+            target='_blank'
             className="flex items-center gap-1.5 text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             <Plane className="h-4 w-4" />
             <span>Penerbangan</span>
           </Link>
           <Link 
-            href="/products?category=kereta-api"
+            href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+            target='_blank'
             className="flex items-center gap-1.5 text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             <Train className="h-4 w-4" />
             <span>Kereta Api</span>
           </Link>
           <Link 
-            href="/products?category=paket-wisata"
+            href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+            target='_blank'
             className="flex items-center gap-1.5 text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             <Package className="h-4 w-4" />
             <span>Paket Wisata</span>
           </Link>
           <Link 
-            href="/products?category=hotel"
+            href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+            target='_blank'
             className="flex items-center gap-1.5 text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             <Hotel className="h-4 w-4" />
             <span>Hotel</span>
           </Link>
           <Link 
-            href="/products?category=rental-kendaraan"
+            href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+            target='_blank'
             className="flex items-center gap-1.5 text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             <Car className="h-4 w-4" />
             <span>Rental Kendaraan</span>
           </Link>
         </nav>
-
-        <div className="hidden md:flex items-center space-x-3">
-          <Link href="/login">
-            <Button variant="outline" size="sm" className="flex items-center gap-1.5">
-              <User className="h-4 w-4" />
-              <span>Masuk</span>
-            </Button>
-          </Link>
-          <Link href="/register">
-            <Button size="sm" className="bg-blue-600 hover:bg-blue-700">Daftar</Button>
-          </Link>
-        </div>
 
         {/* Mobile Menu Button */}
         <button
@@ -119,7 +111,8 @@ export function Navbar() {
           <div className="container mx-auto px-4 py-3">
             <div className="flex flex-col space-y-3">
               <Link 
-                href="/products?category=penerbangan"
+                href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+                target='_blank'
                 className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-100 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
@@ -127,7 +120,8 @@ export function Navbar() {
                 <span>Penerbangan</span>
               </Link>
               <Link 
-                href="/products?category=kereta-api"
+                href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+                target='_blank'
                 className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-100 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
@@ -135,7 +129,8 @@ export function Navbar() {
                 <span>Kereta Api</span>
               </Link>
               <Link 
-                href="/products?category=paket-wisata"
+                href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+                target='_blank'
                 className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-100 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
@@ -143,7 +138,8 @@ export function Navbar() {
                 <span>Paket Wisata</span>
               </Link>
               <Link 
-                href="/products?category=hotel"
+                href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+                target='_blank'
                 className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-100 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
@@ -151,25 +147,14 @@ export function Navbar() {
                 <span>Hotel</span>
               </Link>
               <Link 
-                href="/products?category=rental-kendaraan"
+                href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+                target='_blank'
                 className="flex items-center gap-2 p-2 text-gray-700 hover:bg-gray-100 rounded-md"
                 onClick={() => setIsOpen(false)}
               >
                 <Car className="h-5 w-5" />
                 <span>Rental Kendaraan</span>
               </Link>
-              <div className="pt-2 flex flex-col space-y-2">
-                <Link href="/login">
-                  <Button variant="outline" className="w-full" onClick={() => setIsOpen(false)}>
-                    Masuk
-                  </Button>
-                </Link>
-                <Link href="/register">
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700" onClick={() => setIsOpen(false)}>
-                    Daftar
-                  </Button>
-                </Link>
-              </div>
             </div>
           </div>
         </div>

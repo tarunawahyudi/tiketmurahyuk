@@ -55,7 +55,8 @@ export function Categories() {
           {categories.map((category) => (
             <Link 
               key={category.id}
-              href={`/products?category=${category.id}`}
+              href="https://wa.me/62895094141161?text=Halo%20TiketMurahYuk,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda."
+              target='_blank'
               className="group relative rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow"
             >
               <div className="relative h-64">
